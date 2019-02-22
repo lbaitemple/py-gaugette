@@ -108,7 +108,7 @@ class RotaryEncoder:
 
     def get_steps(self):
         steps = self.steps
-        self.steps = 0
+  #      self.steps = 0
         return steps
 
     # get_cycles returns a scaled down step count to match (for example)
